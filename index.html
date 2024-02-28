@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Decodificador de Texto</title>
+    <link rel="shortcut icon" href="Img/cadeado.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="main container">
+    <header class="Cabecalho" >
+          <img src="Img/cadeado.png" alt="Letra S">
+          <h1>Decodificador de Texto - Alura Challenges Oracle ONE</h1>
+    </header>
+          <div class="container-input">
+            <div class="input">
+            <textarea name="" id="input-texto" placeholder="Digite um texto que deseja Criptografar ou Descriptografar."></textarea>
+            <p>ATENÇÃO: Apenas letras minusculas e sem acento</p>
+            </div>
+            
+            <div id="output" >
+                <img src="Img/Criptografia.png" alt="cadeado">
+                <h2>Seu texto aparecerá aqui!</h2>
+                
+            </div>
+          </div>
+              <div class="buttons">
+                <button onclick="criptografar()"  class="btn-cripto">Criptografar</button>
+                <button onclick="descriptografar()" class="btn-descrip">Descriptografar</button>
+              </div>
+        </main>
+        <!-- Rodapé -->
+        <footer class="rodape">
+          <div id="copyright">
+            <img src="img/cadeado.png" alt="PetLife">
+            Desenvolvido por SamuelSoaresDev 
+            <a href="https://github.com/SamuelSoaresDev" target="_blank"><ion-icon name="logo-github"></ion-icon></a> 
+            Pela Alura Challenges Oracle ONE.
+          </div>
+        </footer>
+        <script src="script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
